@@ -7,7 +7,7 @@ Minimally improved noise for python. Pragmatic, minimal improved logging for pyt
 
 """
 
-from __future__ import absolute_import
+
 import logging
 import sys
 from . import version

@@ -52,7 +52,7 @@ def get_version(form='short'):
     versions["normal"] = v
     if form is "normal":
         return v
-    v += " @" + git_sha()
+    v += " @" + str(git_sha())
     versions["verbose"] = v
     if form is "verbose":
         return v
